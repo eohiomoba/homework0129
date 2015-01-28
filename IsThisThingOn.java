@@ -4,9 +4,8 @@ public class IsThisThingOn {
 	 //System.out.println(countTheVowels(testString));
 	 int count= 0;
 	 for(String arg : args) {
-	    count += countTheVowels (arg);
+	    System.out.println( countTheVowels (arg));
 	 }
-	 System.out.println(count);
 	 
 	 
 	 }
@@ -23,3 +22,4 @@ public class IsThisThingOn {
   
 	 }
 }
+
